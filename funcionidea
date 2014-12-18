@@ -1,0 +1,38 @@
+<iframe frameborder="0" src="demo_iframe.htm" width="auto" ></iframe>
+
+
+ini_set("session.cookie_lifetime","7200");
+ini_set("session.gc_maxlifetime","7200");
+session_start();
+$_SESSION["ejemplo"]="invitado";
+
+
+<!--
+function urlencode()
+{
+var txt=document.getElementById("txt").value;
+//var encodetxt=encodeURI(txt);
+var encodetxt=encodeURIComponent(txt);
+document.getElementById("encodingresult").innerHTML=encodetxt;
+}
+-->
+**
+****obtiene la id de algun atributo
+<script type="text/javascript">
+
+
+function reply_click(clicked_id)
+{
+    //alert(clicked_id);
+console.log(clicked_id);
+	var udpu= clicked_id;
+console.log(udpu);
+}
+
+</script>
+<body>
+<button id="1" onClick="reply_click(this.id)">B1</button>
+<button id="2" onClick="reply_click(this.id)">B2</button>
+<button id="3" onClick="reply_click(this.id)">B3</button>
+</body>
+********
