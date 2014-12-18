@@ -1,4 +1,4 @@
-kava
+Káva Express
 ====
 
-Punto de venta
+Káva Express es un sistema de punto de venta y gestión basado en la web
